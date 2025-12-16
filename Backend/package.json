@@ -7,7 +7,13 @@
     "start:dev": "nodemon src/index.ts",
     "build": "tsc",
     "test": "jest",
+<<<<<<< HEAD
     "ci:local": "nodemon --watch src -e ts --exec \"npm test && npm run build && node dist/index.js\""
+=======
+    "ci:local": "nodemon --watch src -e ts --exec \"npm test && npm run build && node dist/index.js\"",
+   "seed": "ts-node src/seed.ts"
+
+>>>>>>> cf958d22876eb6a6457001d94cd4fc42b81c3cc2
   },
   "keywords": [],
   "author": "",

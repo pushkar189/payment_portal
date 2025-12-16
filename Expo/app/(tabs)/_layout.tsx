@@ -44,6 +44,7 @@ export default function TabLayout() {
           ),
         }}
       />
+<<<<<<< HEAD
       <Tabs.Screen
         name="add-customer"
         options={{
@@ -53,6 +54,8 @@ export default function TabLayout() {
           ),
         }}
       />
+=======
+>>>>>>> cf958d22876eb6a6457001d94cd4fc42b81c3cc2
     </Tabs>
   );
 }

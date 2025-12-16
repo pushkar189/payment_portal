@@ -34,6 +34,7 @@ npx expo start
 
 and Scan QR on the mobile on the same wifi network. 
 
+<<<<<<< HEAD
 In expo folder create an .env file,
 where define , EXPO_PUBLIC_API_BASE_URL=https://<your-ipv4-address>:3000/api
 
@@ -44,3 +45,6 @@ DB_HOST=localhost
 DB_NAME=your_db_name
 DB_PASSWORD=yourpassword
 DB_PORT=5432
+=======
+
+>>>>>>> cf958d22876eb6a6457001d94cd4fc42b81c3cc2
